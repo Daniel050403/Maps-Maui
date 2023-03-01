@@ -6,8 +6,9 @@
            
 
     <Grid RowDefinitions="95*,5*">
-        <maps:Map x:Name="map" />
-        <StackLayout Grid.Row="1" HeightRequest="250" Margin="0,210,0,0"  Padding="20" BackgroundColor="#ff9806" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></StackLayout>
+        <maps:Map x:Name="map" IsTrafficEnabled="true" IsShowingUser="true"  />
+       
+        <StackLayout Grid.Row="1" HeightRequest="250" Margin="0,200,0,0"  Padding="20" BackgroundColor="#ff9806" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></StackLayout>
         <Button Grid.Row="1" Text="Historial de pedidos" TextColor="White" BackgroundColor="#ff9806" HorizontalOptions="Start"></Button>
         <Button Grid.Row="1" Text="Pedidos pendientes " TextColor="White" BackgroundColor="#ff9806"  HorizontalOptions="End"></Button>
     </Grid>
